@@ -1,0 +1,126 @@
+*{
+  margin:0;padding:0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:14px;
+  --page-color:#fafafa;
+  --default-color:#ffffff;
+  --deep-green:#0b8457;
+  --deep-blue:#10316b;
+  --yellow-usu:#eac100;
+  --usu--green:#4A925E;
+  --deep-blue-smoth:#387385;
+}
+
+
+.no-text-decor,.no-text-decor:hover{
+  text-decoration: none;
+  color: var(--deep-green);
+}
+.active-navbar{
+  background: var(--deep-green);
+  margin-top:-.575rem;
+  margin-bottom:-.5rem;
+  padding-top:.575rem;
+  padding-bottom:.5rem;
+}
+
+.active-navbar .nav-link {
+  color:#ffffff !important;
+}
+/* Login page */
+.login-container{
+  background-color: var(--page-color);
+  min-height:470px;
+}
+.heading-title-login{
+  font-family: "Open Sans";
+  font-size:24px;
+  text-align:center;
+}
+.isAccount{
+  text-align: center;
+  margin:0px;
+  margin-bottom:20px;
+  font-weight: 300;
+}
+
+.isAccount a{
+  cursor:pointer;
+}
+.container-form-login{
+  padding:10px;
+}
+.button-auth,.button-auth:hover{
+  font-weight:300;
+  font-size: 14px;
+  padding:7px;
+  background: var(--deep-green);
+  border-color:var(--deep-green);
+  opacity: 1;
+}
+
+
+.auth-form{
+  font-size: 14px;
+  padding-top:15px;
+  height: auto;
+  padding:.475rem .75rem !important;
+}
+.auth-form:focus{
+  box-shadow: none;
+  border:1px solid rgba(0,0,0,.125);
+
+}
+.content-visible{
+  background: #ffffff;
+  border-top-right-radius: .25rem !important;
+  border-bottom-right-radius: .25rem !important;
+  border-left:none;
+  cursor:pointer;
+}
+.input-visible,.input-visible:focus{
+  border-right:none;
+}
+
+/* end login page */
+
+/* register page*/
+.heading-title-register{
+  font-family: "Open Sans";
+  font-size:28px;
+  margin-bottom: 20px;
+}
+.info-heading-register{
+  font-weight: 300;
+  margin-bottom:20px;
+}
+.container-form-register{
+  padding:20px;
+}
+.button-regis,.button-regis:hover{
+  font-weight:300;
+  font-size: 14px;
+  padding:7px;
+  background: var(--deep-blue-smoth);
+  border-color:var(--deep-blue-smoth);
+  opacity: 1;
+}
+/* end register */
+
+/* footer */
+.footer-content{
+  border-top: 1px solid rgba(0,0,0,.125);
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 14px;
+  font-family: "Roboto"
+}
+/*end footer*/
+
